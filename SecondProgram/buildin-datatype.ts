@@ -1,4 +1,6 @@
-let id: number;
+{
+    
+    let id: number;
 let firstName: string;
 let lastName: string;
 let isActive: boolean;
@@ -9,9 +11,11 @@ isActive = true
 let fullName: string = firstName.concat(lastName)
 id = 234
 
-function displayName(): void{
-    console.log(fullName)
+function displayFullName(name: string): void{
+console.log(name)
 }
 
-displayName()
+displayFullName('abu hena')
+
+}
 // console.log(id)
